@@ -35,3 +35,4 @@ coverage
 .eslintrc.cjs
 .vscode/
 .pnp*
+.editorconfig
