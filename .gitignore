@@ -34,3 +34,4 @@ coverage
 .yarn/*
 .eslintrc.cjs
 .vscode/
+.pnp*
