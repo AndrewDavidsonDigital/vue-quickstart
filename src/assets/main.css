@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* RESTET */
+
+/* Balance headings */
+h1,h2,h3,h4,h5,h6 {
+    @apply text-balance;
+}
+
+/* text-conent */
+p,li,figcaption {
+    @apply text-pretty;
+    /* @apply max-w-[65ch] */
+}
+
+/* Container query bounds */
+header, footer, main, section, article {
+    container-type: inline-size;
+}
+
+/**********/
+
