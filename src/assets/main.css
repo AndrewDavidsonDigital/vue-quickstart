@@ -1,13 +1,13 @@
 @import 'tailwindcss';
 
-/* RESTET */
+/* RESET */
 
 /* Balance headings */
 h1,h2,h3,h4,h5,h6 {
   @apply text-balance;
 }
 
-/* text-conent */
+/* text-content */
 p,li,figcaption {
   @apply text-pretty;
   /* @apply max-w-[65ch] */
