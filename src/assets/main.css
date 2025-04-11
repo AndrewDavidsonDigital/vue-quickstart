@@ -6,19 +6,26 @@
 
 /* Balance headings */
 h1,h2,h3,h4,h5,h6 {
-    @apply text-balance;
+  @apply text-balance;
 }
 
 /* text-conent */
 p,li,figcaption {
-    @apply text-pretty;
-    /* @apply max-w-[65ch] */
+  @apply text-pretty;
+  /* @apply max-w-[65ch] */
 }
 
 /* Container query bounds */
 header, footer, main, section, article {
-    container-type: inline-size;
+  container-type: inline-size;
 }
 
 /**********/
 
+.grid-area-stack {
+  display: 'grid';
+  grid-template-areas: '"stack"';
+  >* {
+    grid-area: 'stack';
+  }      
+}
