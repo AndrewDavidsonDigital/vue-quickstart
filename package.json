@@ -14,9 +14,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.11",
+    "@tailwindcss/vite": "^4.1.18",
     "pinia": "^3.0.3",
-    "tailwindcss": "^4.1.11",
+    "tailwindcss": "^4.1.18",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
@@ -37,6 +37,9 @@
     "vite": "^7.0.6",
     "vitest": "^3.2.4",
     "vue-tsc": "^3.0.4"
+  },
+  "resolutions": {
+    "tar": "^7.5.7"
   },
   "packageManager": "yarn@4.4.1"
 }
